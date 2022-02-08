@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Forum-Frontend</string>
+    <string name="welcome">Welcome to Forum</string>
+    <string name="forum">Forum</string>
+    <string name="about">About</string>
+    <string name="organizations">Organizations</string>
+    <string name="contactus">Contact Us</string>
+</resources>

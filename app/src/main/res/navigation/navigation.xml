@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/forum">
+    <fragment
+        android:id="@+id/forum"
+        android:name="com.ekagra.forum_frontend.ForumFragment"
+        android:label="fragment_forum"
+        tools:layout="@layout/fragment_forum" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.ekagra.forum_frontend.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/organizations"
+        android:name="com.ekagra.forum_frontend.OrganizationsFragment"
+        android:label="fragment_organizations"
+        tools:layout="@layout/fragment_organizations" />
+    <fragment
+        android:id="@+id/contactUs"
+        android:name="com.ekagra.forum_frontend.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+</navigation>
